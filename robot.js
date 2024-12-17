@@ -102,7 +102,7 @@ const keyboardShortcutDeclaration = {
       }
     };
 // Inisialisasi Model dengan Function Declaration
-const genAI = new GoogleGenerativeAI("AIzaSyD7ArZRbZUOJe1uupARNe4b2Z9xvUUkNFw");
+const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
 const generativeModel = genAI.getGenerativeModel({
     model: "gemini-2.0-flash-exp",
     generationConfig: {
